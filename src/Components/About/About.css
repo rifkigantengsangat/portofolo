@@ -1,0 +1,140 @@
+.container-about{
+    width: 90%;
+    margin: auto;
+    height :2000px;
+    background: rgba( 19, 1, 1, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+ 
+   padding-left: 30px;
+   
+}
+html{
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    width: 2px;    
+ 
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: black;       
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: red;  
+  }
+  .about-me{
+      padding-top: 40px;
+      position: relative;
+  }
+  .abot{
+      color: white;
+      font-size: 30px;
+  }
+  .abot::after{
+      content: "";
+      width: 100px;
+      height: 2px;
+      background: red;
+      margin-top: 10px;
+     position:absolute;
+     margin-left: 10px;
+     bottom:14px;
+  }
+  .gambar{
+      width:400px;
+      height:400px;
+      object-fit: contain;
+  }
+  .desc{
+      display: flex;
+      
+      color: white;
+      margin-top: 30px;
+  }
+.text{
+    margin-left: 40px;
+   
+}
+.text h1{
+    color: red;
+    font-weight:bold;
+}
+.text p {
+    line-height:40px;
+    font-size: 20px;
+    letter-spacing:1px;
+}
+.skil{
+    margin-top: 30px;
+}
+.skill{
+    display: flex;
+    margin-top: 40px;
+    justify-content:space-evenly;
+    width: 100%;
+  
+}
+.inter{
+    width: 100%;
+    height: 300px;;
+   
+}
+.container-inter{
+    display: flex;
+    margin-left: 35px;
+    flex-wrap: wrap;
+}
+.speaker-container{
+    margin-top: 50px;
+    display: flex;
+width: 21%;
+margin : 30px 20px;
+height: 60px;
+justify-content:flex-start;
+text-align: center;
+align-items: center;
+    background: rgba( 23, 22, 22, 0.4 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+color: white;
+}
+.speaker-icon{
+    padding: 0 20px;
+}
+.interest{
+    width: 100%;
+    height:300px;
+}
+.container-interest{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 35px;
+
+}
+.interest-icon-text{
+    margin-top: 50px;
+    display: flex;
+width: 20.5%;
+margin : 30px 20px;
+height: 60px;
+justify-content:flex-start;
+text-align: center;
+align-items: center;
+    background: rgba( 23, 22, 22, 0.4 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+color: white;
+}
+.icon-interest{
+    padding: 0 20px;
+}

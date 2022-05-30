@@ -1,0 +1,60 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.right{
+    flex-basis: 92%;
+    margin-left: 60px;
+    margin-top: 200px;
+    overflow-x:hidden ;
+  
+  
+}
+.right-container{
+    padding-bottom: 40px;
+    position:relative;
+  
+}
+.nama{
+    position: relative;
+    color:transparent;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px #fff;
+    font-size:50px;
+}
+.sapa{
+    color: antiquewhite;
+    font-size: 20px;
+    text-transform:uppercase;
+    padding-bottom: 12px;
+}
+.soft{
+    color: antiquewhite;
+    padding-top: 12px;
+    text-transform: uppercase;
+}
+.project{
+    width:300px;
+   display:flex;
+   justify-content: space-between;
+   margin-top: 30px;
+  
+}
+.see{
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.see:hover{
+    background-color:red;
+}
+.work{
+
+}

@@ -1,0 +1,23 @@
+.sidebar{
+    flex-basis:8%;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: relative;
+    z-index: 1;
+    
+    height:91vh;
+    
+    
+}
+.container-sosial{
+    display:block;
+    margin-top: 300px;
+margin-left: 35px;
+
+}
+.container-sosial div{
+    margin-bottom:20px ;
+}
