@@ -1,0 +1,82 @@
+*{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.mywork{
+    padding-top: 40px;
+    color: white;
+    width: 100%;
+}
+.text-work{
+    font-weight: bold;
+    position: relative;
+}
+.text-work::after{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: red;
+    margin-top: 10px;
+    position:absolute;
+    margin-left: 10px;
+    bottom:14px;
+
+}
+.work-container{
+    display:flex;
+    margin-top: 60px;
+    justify-content:space-around;
+    width: 95%;
+    align-items: center;
+
+
+}
+.card{
+
+width: 100%;
+padding: 10px;
+}
+.work-item{
+  background-color: rgba( 255, 255, 255, 0.25 );
+  border-radius:10px;
+  height:300px
+}
+.work-item img{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.link-google{
+background-color:red;
+color: white;
+text-decoration: none;
+padding: 10px;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+display: inline-block;
+border-radius: 10px;
+
+}
+.work-item-text{
+    margin-top: 10px;
+    text-align: center;
+}
+.work-item-text h1{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+/*buat semua menjadi responsive */
+@media screen and (max-width: 600px){
+    .work-container{
+        flex-direction: column;
+    }
+    .work-item{
+        width: 100%;
+    }
+    .work-item-text{
+        margin-top: 20px;
+    }
+}

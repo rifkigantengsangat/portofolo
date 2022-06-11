@@ -18,7 +18,7 @@ const About = () => {
     <motion.div className='container-about'
     initial={{width:0,opacity: 0 }}
     animate={{width:"90%",opacity:1}}
-    exit ={{x : window.innerWidth  ,transition : {duration : 0.5}}}
+    exit ={{x : -window.innerWidth  ,transition : {duration : 0.5}}}
     >
       <div className="about-me">
         <h1 className="abot">About Me</h1>
@@ -52,6 +52,7 @@ const About = () => {
         trackPathColor="transparent"
         bgColor="red"
         trackBorderColor="red"
+      
       />
       </h1>
         </div>
@@ -241,6 +242,9 @@ const About = () => {
     </div>
      </div>
       </div>
+    </div>
+    <div className="container-techno">
+
     </div>
 
     </motion.div>

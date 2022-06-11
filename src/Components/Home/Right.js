@@ -44,7 +44,7 @@ const Right = () => {
                 <Link to='/Work' className="see">See My Work</Link>
               </div>
                <div>
-                <Link to='/Work' className="see">Contact Me</Link>
+                <Link to='/Contact' className="see">Contact Me</Link>
               </div>
             </motion.div>
         </motion.div>

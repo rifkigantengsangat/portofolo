@@ -1,7 +1,7 @@
 .container-about{
     width: 90%;
     margin: auto;
-    height :2000px;
+    height :1800px;
     background: rgba( 19, 1, 1, 0.4 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 0px );
@@ -12,6 +12,7 @@
 }
 html{
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 body::-webkit-scrollbar {
     width: 2px;    
@@ -109,7 +110,7 @@ color: white;
 }
 .interest{
     width: 100%;
-    height:300px;
+    height:100px;
 }
 .container-interest{
     width:100%;
@@ -137,4 +138,93 @@ color: white;
 }
 .icon-interest{
     padding: 0 20px;
+}
+/*buat semua menjadi responsive*/
+@media screen and (max-width: 600px){
+    .container-about{
+        width: 100%;
+        height:3000px;
+        padding-left: 0;
+    }
+    .desc{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .image{
+       
+        width: 100%;
+      
+    }
+    .gambar{
+        width:90%;
+        height:100%;
+        display:block;
+        margin: 0 auto;
+    }
+    .text{
+        margin-top: 50px;
+        width: 90%;
+        margin-left: 15px;
+        padding-left: 0;
+       
+    }
+    .text h1{
+       
+        font-size: 30px;
+    }
+    .text p{
+        font-size: 18px;
+        line-height: 39px;
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+    .skill{
+        display: flex;
+        flex-direction: column;
+        width:90%;
+    }
+   
+    .inter{
+        width: 100%;
+        margin: auto;
+        height: 300px;
+        padding-left: 0;       
+    }
+    .container-inter{
+        display: flex;
+         
+        flex-direction: column;
+        align-items: center
+    
+    }
+    .speaker-container{
+        width: 100%;
+
+         margin-top: 0px;
+        margin-left: -15px;
+        padding-left: 0;
+    }
+    .abot{
+        font-size: 25px;
+        padding-left: 0;
+    }
+    .about-me{
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+    .interest{
+      margin-top: 400px;
+    }
+    .container-interest{
+        display: flex;
+        flex-direction: column;
+      
+        width: 100%;
+    }
+    .interest-icon-text{
+        width: 85%;
+        margin-left: -10px;
+        margin-top: 0
+    }
 }

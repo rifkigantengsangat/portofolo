@@ -21,3 +21,27 @@ margin-left: 35px;
 .container-sosial div{
     margin-bottom:20px ;
 }
+.container-sosial div a:hover{
+    color: red;
+    
+}
+/*responsive*/
+@media screen and (max-width: 768px){
+    .sidebar{
+        flex-basis: 20%;
+    
+        height:100vh;
+    }
+    .container-sosial{
+        display:block;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       
+
+    }
+    .container-sosial div{
+        margin-bottom:20px ;
+        margin-right: 20px;
+    }
+}

@@ -58,3 +58,37 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .work{
 
 }
+/*responsive*/
+@media screen and (max-width: 768px){
+    .right{
+        flex-basis: 80%;
+        margin-left: 20px;
+        margin-top: 200px;
+    }
+    .container-container{
+        padding-bottom: 0px;
+    }
+    .nama{
+        font-size:25px;
+    }
+    .sapa{
+        font-size: 11px;
+   
+}
+.soft{
+    font-size: 14px;
+}
+.project{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    width:100%;
+}
+.work{
+    margin: 0 20px;
+}
+.see{
+    font-size:13px;
+    
+}
+}
