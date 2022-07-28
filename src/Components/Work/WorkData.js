@@ -1,6 +1,7 @@
 import Cipta from '../Assets/cipta.png';
 import Valo from '../Assets/home.png';
-
+import movies from '../Assets/movies-app.webp'
+import store from '../Assets/shotgan-store.webp';
 export const data = [        
     {
         id: 1,
@@ -16,7 +17,17 @@ export const data = [
     },
     {
         id: 3,
-        nama: 'WILL CONTINUE',
+        nama: 'Movies App Shotgan',
+        gambar : movies,
+        link : 'https://github.com/rifkigantengsangat/movie-apps'
+        
+    },
+    {
+        id: 4,
+        nama: 'Shotgan Store',
+        gambar : store,
+        link : 'https://shotganstore.netlify.app/'
         
     }
+    
 ]
