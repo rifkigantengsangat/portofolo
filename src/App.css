@@ -2,7 +2,7 @@
 
 }
 html { 
-  background: linear-gradient(90deg,rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3)),url(../src/Components/Assets/download.png)  no-repeat center center fixed;
+  background: linear-gradient(90deg,rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3)),url(../src/Components/Assets/gambar.webp)  no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
