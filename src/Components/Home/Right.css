@@ -19,7 +19,16 @@
     color:transparent;
     text-transform: uppercase;
     -webkit-text-stroke: 1px #fff;
+    background-image : url('../Assets/line.png');
+    -webkit-background-clip: text;
+    background-position: 0 0 ;
+    animation: line infinite linear 30s;
     font-size:50px;
+}
+@keyframes line {
+    100%{
+        background-position: 2000px 0 ;
+    }
 }
 .sapa{
     color: antiquewhite;
